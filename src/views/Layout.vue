@@ -77,7 +77,7 @@ const menu = [
   },
   {
     icon: Document,
-    label: '敏捷应急',
+    label: '应急救援管理',
     children: [
       {
         label: '企业物资应急',
