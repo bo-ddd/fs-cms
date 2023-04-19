@@ -55,6 +55,26 @@ const router = createRouter({
           path: '/ticketCount',
           name: 'ticketCount',
           component: () => import('../views/TicketCount.vue')
+        },
+        {
+          path: '/companyMonitor',
+          name: 'companyMonitor',
+          component: () => import('../views/CompanyMonitor.vue')
+        },
+        {
+          path: '/parkMonitor',
+          name: 'parkMonitor',
+          component: () => import('../views/ParkMonitor.vue')
+        },
+        {
+          path: '/materialEmergency',
+          name: 'materialEmergency',
+          component: () => import('../views/MaterialEmergency.vue')
+        },
+        {
+          path: '/emergencyDrill',
+          name: 'emergencyDrill',
+          component: () => import('../views/EmergencyDrill.vue')
         }
       ]
     },
